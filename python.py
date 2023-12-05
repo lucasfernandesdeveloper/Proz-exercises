@@ -1,4 +1,32 @@
+"""
+# Exercício 1 - Soma de dois números 
 
+# Getting the numbers that are going to be added
+number1 = int(input("Informe um número: "))
+number2 = int(input("Informe outro número: "))
+
+# The result
+result = number1 + number2
+print("O resultado da some é:", result)
+
+
+# Exercício 2 - Média de notas
+
+# Getting the grandes 
+grades = []
+grade1 = int(input("Informe a primeira nota: "))
+grades.append(grade1)
+
+grade2 = int(input("Informe a segunda nota: "))
+grades.append(grade2)
+
+grade3 = int(input("Informe a terceira nota: "))
+grades.append(grade3)
+
+# Average value
+average = sum(grades) / len(grades)
+print("A média é:", average)
+"""
 
 # Decraração de variavel do tipo inteiro = 
 #quantidadeFaltas = 15
